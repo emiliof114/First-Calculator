@@ -44,11 +44,11 @@ def clear():
     # diabled when error message pops up in text box (to disable button pressing) so clearing it will revert to normal state
     text_box.delete(1.0, "end")
 
+
 def error():
     clear()
     text_box.insert("end", "ERROR")
     text_box.config(state="disabled")
-
 
 
 def multiply(a, b):
